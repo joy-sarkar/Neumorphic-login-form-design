@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-color: rgb(230, 227, 222);
+    justify-content: center;
+    align-items: center;
+}
+.from-body{
+    height: 400px;
+    width: 270px;
+    border-radius: 20px;
+    background: rgb(241, 240, 236);
+    box-shadow: 10px 10px 15px rgb(195, 191, 191),
+               -10px -10px 15px white;
+}
+.fileds{
+    margin: 110px 10px 10px 30px;
+}
+.pass-word{
+    /* box-shadow:inset 10px 10px 5px rgb(200, 193, 193),
+    -10px -10px 5px rgb(219, 213, 213); */
+}    
+.user-name{
+     margin-bottom: 15px;
+  
+}
+.pass-word input{
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    box-shadow: inset 3px 3px 5px rgb(226, 223, 223),
+    inset -3px -3px 5px rgb(226, 223, 223);
+    
+
+}
+.user-name input{
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    box-shadow: inset 3px 3px 5px rgb(226, 223, 223),
+    inset -3px -3px 5px rgb(226, 223, 223);
+
+}
+.btns{
+    margin: 20px 10px 10px 30px;
+    height: auto;
+    width: 100%;
+   
+   
+}
+.btns input{
+    border: none;
+    outline: none;
+    padding: 8px 80px;
+    background: rgba(43, 57, 182, 0.89);
+    border-radius: 5px;
+    box-shadow:  3px 3px 5px rgb(109, 106, 106),
+     -3px -3px 5px rgb(128, 124, 124);
+     color: white;
+     font-weight: 600;
+     cursor: pointer;
+
+}
+.btns input:hover{
+    background:  rgb(68, 30, 173);
+}
+.frgt-pass h5{
+    margin: 10px 10px 10px 80px;;
+    font-weight: 600;
+    cursor: pointer;
+}
+.d-line h5{
+  padding: 5px 20px;
+  margin: 5px 30px;
+  text-align: center;
+
+}
+.sign-up-btn{
+    background: rgb(53, 153, 53);
+    padding: 8px 60px;
+    border-radius: 5px;
+    margin: 15px 20px 10px 20px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    box-shadow:  3px 3px 5px rgb(109, 106, 106),
+    -3px -3px 5px rgb(128, 124, 124);
+    
+
+
+}
+
